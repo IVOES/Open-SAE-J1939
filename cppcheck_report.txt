@@ -1,0 +1,53 @@
+Src/Main.c:46:2: warning: %X in format string (no. 1) requires 'unsigned int' but the argument type is 'unsigned long'. [invalidPrintfArgType_uint]
+ printf("%08X\t", ID);
+ ^
+Src/SAE_J1939/SAE_J1939-73_Diagnostics_Layer/DM2.c:79:92: style:inconclusive: Function 'SAE_J1939_Read_Response_Request_DM2' argument 4 names different: declaration 'errors_dm1_active' definition 'errors_dm2_active'. [funcArgNamesDifferent]
+void SAE_J1939_Read_Response_Request_DM2(J1939 *j1939, uint8_t SA, uint8_t data[], uint8_t errors_dm2_active) {
+                                                                                           ^
+Src/SAE_J1939/SAE_J1939-73_Diagnostics_Layer/Diagnostics_Layer.h:36:92: note: Function 'SAE_J1939_Read_Response_Request_DM2' argument 4 names different: declaration 'errors_dm1_active' definition 'errors_dm2_active'.
+void SAE_J1939_Read_Response_Request_DM2(J1939 *j1939, uint8_t SA, uint8_t data[], uint8_t errors_dm1_active);
+                                                                                           ^
+Src/SAE_J1939/SAE_J1939-73_Diagnostics_Layer/DM2.c:79:92: note: Function 'SAE_J1939_Read_Response_Request_DM2' argument 4 names different: declaration 'errors_dm1_active' definition 'errors_dm2_active'.
+void SAE_J1939_Read_Response_Request_DM2(J1939 *j1939, uint8_t SA, uint8_t data[], uint8_t errors_dm2_active) {
+                                                                                           ^
+Src/ISO_11783/ISO_11783-7_Application_Layer/Auxiliary_Valve_Command.c:18:0: style: The function 'ISO_11783_Send_Auxiliary_Valve_Command' is never used. [unusedFunction]
+
+^
+Src/ISO_11783/ISO_11783-7_Application_Layer/General_Purpose_Valve_Command.c:18:0: style: The function 'ISO_11783_Send_General_Purpose_Valve_Command' is never used. [unusedFunction]
+
+^
+Src/ISO_11783/ISO_11783-7_Application_Layer/Auxiliary_Valve_Estimated_Flow.c:18:0: style: The function 'ISO_11783_Send_Request_Auxiliary_Valve_Estimated_Flow' is never used. [unusedFunction]
+
+^
+Src/ISO_11783/ISO_11783-7_Application_Layer/Auxiliary_Valve_Measured_Position.c:18:0: style: The function 'ISO_11783_Send_Request_Auxiliary_Valve_Measured_Position' is never used. [unusedFunction]
+
+^
+Src/ISO_11783/ISO_11783-7_Application_Layer/General_Purpose_Valve_Estimated_Flow.c:18:0: style: The function 'ISO_11783_Send_Request_General_Purpose_Valve_Estimated_Flow' is never used. [unusedFunction]
+
+^
+Src/SAE_J1939/SAE_J1939-81_Network_Management_Layer/Commanded_Address.c:18:0: style: The function 'SAE_J1939_Send_Commanded_Address' is never used. [unusedFunction]
+
+^
+Src/SAE_J1939/SAE_J1939-71_Application_Layer/Request_Component_Identification.c:18:0: style: The function 'SAE_J1939_Send_Request_Component_Identification' is never used. [unusedFunction]
+
+^
+Src/SAE_J1939/SAE_J1939-73_Diagnostics_Layer/DM1.c:18:0: style: The function 'SAE_J1939_Send_Request_DM1' is never used. [unusedFunction]
+
+^
+Src/SAE_J1939/SAE_J1939-73_Diagnostics_Layer/DM14.c:18:0: style: The function 'SAE_J1939_Send_Request_DM14' is never used. [unusedFunction]
+
+^
+Src/SAE_J1939/SAE_J1939-73_Diagnostics_Layer/DM2.c:18:0: style: The function 'SAE_J1939_Send_Request_DM2' is never used. [unusedFunction]
+
+^
+Src/SAE_J1939/SAE_J1939-73_Diagnostics_Layer/DM3.c:17:0: style: The function 'SAE_J1939_Send_Request_DM3' is never used. [unusedFunction]
+
+^
+Src/SAE_J1939/SAE_J1939-71_Application_Layer/Request_ECU_Identification.c:18:0: style: The function 'SAE_J1939_Send_Request_ECU_Identification' is never used. [unusedFunction]
+
+^
+Src/SAE_J1939/SAE_J1939-71_Application_Layer/Request_Software_Identification.c:18:0: style: The function 'SAE_J1939_Send_Request_Software_Identification' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
